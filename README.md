@@ -9,6 +9,4 @@ clãs do plugin SimpleClans.
 /sctop del <posição (número)> - Irá deletar uma localidade criada
 <br><br>
 <h3>Dependências<h3>
-• [Citizens](https://dev.bukkit.org/projects/citizens)
-• SimpleClans
-• HolographicDisplays
+  * [Status](https://github.com/DevNatan/KaTan#status)
