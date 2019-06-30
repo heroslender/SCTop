@@ -1,0 +1,22 @@
+# tempo em minuto para atualizar o rank
+runnable_time: 5
+
+hologram:
+  # altura do holograma, ajuste até ficar bom com os npc
+  # deixei configurável pq quanto mais linha tem, mais precisa
+  # de altura pra ficar legal
+  height: 3
+  # linhas que irá aparecer em cima
+  # de cada npc do top
+  lines:
+  - ''
+  - '&f{clanKdr}'
+  - '&7KDR:'
+  - ''
+  - '&e{clanLeader}'
+  - '&e[{clanTag}] {clanName}'
+  - ''
+  - '&4{pos}° lugar'
+
+# aqui é as posições salvas, não mexa =)
+locations: []
