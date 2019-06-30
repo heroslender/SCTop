@@ -44,7 +44,7 @@ public class SCTopRunnable implements Runnable {
 
 		if (clans.size() <= 0) {
 			sctop.debug(
-					"Infelizmente não atualizados o top clãs pelo fato de não ter nenhum clã registrado, sinto muito.");
+					"Infelizmente nï¿½o atualizados o top clï¿½s pelo fato de nï¿½o ter nenhum clï¿½ registrado, sinto muito.");
 			return;
 		}
 		
@@ -69,16 +69,15 @@ public class SCTopRunnable implements Runnable {
 				Location holoLocation = location.clone().add(0, sctop.getConfig().getInt("hologram.height"), 0);
 
 				Hologram hologram = HologramsAPI.createHologram(sctop, holoLocation);
-				for (int i = 0; i < sctop.getConfig().getStringList("hologram.lines").size(); i++) {
-					String line = sctop.getConfig().getStringList("hologram.lines").get(i);
-					line = line.replace("&", "§");
+				for (String line : sctop.getConfig().getStringList("hologram.lines")) {
+					line = line.replace("&", "ï¿½");
 					line = line.replace("{pos}", String.valueOf(position));
 					line = line.replace("{clanTag}", clan.getTag());
 					line = line.replace("{clanName}", clan.getName());
 					line = line.replace("{clanLeader}", clanLeader.getName());
 					line = line.replace("{clanKdr}", String.valueOf(clan.getTotalKDR()));
 					
-					hologram.insertTextLine(i, line);
+					hologram.appendTextLine(line);
 				}
 	            HOLOGRAM.add(hologram);
 			}
