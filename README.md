@@ -1,5 +1,6 @@
 # 🔰 SCTop
-<br>
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[ ![Download](https://api.bintray.com/packages/itroken99/LegendsClans/LegendsClans/images/download.svg?version=1.8) ](https://www.mediafire.com/file/s8o1m8o3lmhg8wx/SCTop.jar/file)
 <h3>O que é?</h3>
 Um simples plugin que irá ordernar em NPC os
 clãs do plugin SimpleClans.
