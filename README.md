@@ -7,3 +7,8 @@ clãs do plugin SimpleClans.
 <h3>Comando</h3>
 /sctop add <posição (número)> - Irá criar uma localidade para ficar o NPC Top X (X = posição criada) <br>
 /sctop del <posição (número)> - Irá deletar uma localidade criada
+<br><br>
+<h3>Dependências<h3>
+• [Citizens](https://dev.bukkit.org/projects/citizens)
+• SimpleClans
+• HolographicDisplays
